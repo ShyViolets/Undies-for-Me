@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "pyro",
+            "projectFile": "skyrimse.ppj",
+            "gamePath": "V:\\Onedrive\\Skyrim ModMaking\\0 - Dev Workspace\\Game Root",
+            "problemMatcher": [
+                "$PapyrusCompiler"
+            ],
+            "label": "pyro: Compile Project (skyrimse.ppj)",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
