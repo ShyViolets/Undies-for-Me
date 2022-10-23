@@ -1,8 +1,14 @@
 Scriptname SV_UndiesForMe_PlayerScript extends ReferenceAlias  
 
-;ScriptName ActorBase extends Form
-
-int PlayerSex PlayerRef.GetSex() native
-;int Function GetSex() native
+Actor Property PlayerRef Auto
+int PlayerGenderVar
 
 
+Event OnInit()
+
+endEvent
+
+Function GetPlayerGender()
+    ; making a function to get player's gender
+
+EndFunction
