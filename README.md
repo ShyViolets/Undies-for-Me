@@ -7,3 +7,4 @@ Male Vanilla Underwear
 https://www.nexusmods.com/skyrim/mods/70464
 
 Female Vanilla Underwear
+https://www.nexusmods.com/skyrimspecialedition/mods/198

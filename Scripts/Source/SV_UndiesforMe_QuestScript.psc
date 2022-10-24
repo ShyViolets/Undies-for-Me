@@ -5,17 +5,16 @@ Armor Property SV_UndiesforMe_Male  Auto
 Armor Property SV_UndiesForMe_Female  Auto  
 Actor Property PlayerRef Auto
 
-
 ;on script initialization at game start, listen for opening character creation menu
 Event OnInit() 
     RegisterForMenu("RaceSex Menu")
-
 endEvent
 
-; when the racemenu character creation is done run function to give underwear
+; when the racemenu character creation is done run function to give underwear and stop listening for the quest.
 Event OnMenuClose(string menuName) 
     if menuName == "RaceSex Menu" 
-        GivePlayerUndies()  
+        GivePlayerUndies()
+        UnregisterForMenu("RaceSex Menu")
     endif
 endEvent
 
