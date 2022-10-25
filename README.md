@@ -5,7 +5,7 @@ Check Build Folder for packaged mod.
 
 
 **Purpose**
-<br>Comes with Default player underwear for male PCs (Vanilla Body) and female player characters (CBBE Curvy). Players can change default underwear by following the instructions below to best fit their chosen bodies. After character creation, your character will automatically be equipped with removable underwear. This means if you remove your armor, you won't be immediately nude. You can still remove your underwear to be fully naked. 
+<br>Comes with Default player underwear for male PCs (Vanilla Body) and female player characters (CBBE Curvy). Players can change default underwear by following the instructions below to best fit their chosen bodies. After character creation, your character will automatically be equipped with removable underwear. This means if you remove your armor, you won't be immediately nude. You can still remove your underwear to be fully naked. All (well almost all - let me know if I missed any) vanilla + DLC (excluding AE CC content) has had slot 52 added onto their list of bodyslots in ARMA to prevent clipping.
 Please read further below if you wish to replace the bodies.
 
 
@@ -15,6 +15,7 @@ Please read further below if you wish to replace the bodies.
 <br> 2) Copy and rename the nif files for the underwear you wish to replace. For the male underwear (size 0 and 1) rename to UndiesForMe_Male_0 and UndiesForMe_Male_1. Place into ...\Undies for Me\meshes\ . For the female underwear, repeat the same procedure but rename UndiesForMe_Female_0 and UndiesForMe_Female_1. 
 <br> 3) If the author of the underwear has tagged the underwear as body slot 52, you are all set. If not, you need to open the nifs and change the bodyslot to 52. See this tutorial for an example. (((INSERT TUTORIAL HERE))) 
 <br> Do not change the texture paths - you want it to point to the mod you got the underwear from.
+<br>4) If you have mod added clothing that clips with your underwear, it needs to have slot 52 added to it in nifskope & xEdit(or CK). See tutorial for how (takes 5 min). (((INSERT TUTORIAL HERE)))
 
 	
 **FAQ**
