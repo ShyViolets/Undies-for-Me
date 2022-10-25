@@ -6,12 +6,12 @@
     Output="Scripts" 
     Optimize="false" 
     Release="false" 
-    Zip="false"
+    Zip="true"
     Package="false"
     Final="false">
     <Variables>
         <!-- Set the name of your mod: -->
-        <Variable Name="ModName" Value="CHANGE THE MOD NAME HERE" />
+        <Variable Name="ModName" Value="Undies For Me" />
         <!-- The folder where you store all of your mods -->
         <Variable Name="ModsFolder" Value="V:\Onedrive\skyrim modmaking\0 - dev workspace\mods" />
     </Variables>
@@ -27,8 +27,6 @@
     <Packages Output=".">
         <Package Name="@ModName" RootDir=".">
             <Match In="Scripts">*.pex</Match>
-            <!-- Match In="Sound\Fx\UI">*.wav</Match>
-            <!-- <Match In="interface\translations">*.txt</Match> -->
         </Package>
         <!-- If you have any texture files, uncomment the following to create a Textures .bsa archive with texture files -->
         <!-- <Package Name="@ModName - Textures" RootDir=".">
@@ -41,6 +39,9 @@
             <Include>@ModName.esp</Include>
             <Include NoRecurse="true">*.bsa</Include>
             <Match In="Scripts\Source">*.psc</Match>
+            <Match In="textures\">*.dds</Match>
+            <Match In="meshes\">*.nif</Match>
+            <Match In="Scripts">*.pex</Match>
         </ZipFile>
     </ZipFiles>
     <!-- This will remove any *.bsa files in this directory *after* the build, if there are any. Set UseInBuild="false" to disable. -->
