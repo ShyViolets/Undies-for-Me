@@ -41,6 +41,7 @@
             <Match In="Scripts\Source">*.psc</Match>
             <Match In="textures\">*.dds</Match>
             <Match In="meshes\">*.nif</Match>
+            <Match In="meshes\">*.tri</Match>
             <Match In="Scripts">*.pex</Match>
         </ZipFile>
     </ZipFiles>
