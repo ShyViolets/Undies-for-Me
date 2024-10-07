@@ -1,6 +1,4 @@
 *.vscode
 *.ppj
 meta.ini
-*.vscode
-*.ppj
-meta.ini
+SkyrimSE.code-workspace
